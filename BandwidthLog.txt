@@ -1,0 +1,366 @@
+2025-06-24 19:47:12.260368 -> Bandwidth Measurement Started
+
+2025-06-24 19:48:02.786947 -> Current Occupation of Bandwidth on access point ap1: 1.6930814814814816
+
+2025-06-24 19:48:02.834726 -> Current Occupation of Bandwidth on access point ap4: 2.1659733333333335
+
+2025-06-24 19:48:02.976899 -> Current Occupation of Bandwidth on access point ap3: 0.43673481481481485
+
+2025-06-24 19:48:03.469426 -> Current Occupation of Bandwidth on access point ap2: 3.2373362962962964
+
+2025-06-24 19:48:23.027374 -> Current Occupation of Bandwidth on access point ap2: 5.459474814814815
+
+2025-06-24 19:48:23.065848 -> Current Occupation of Bandwidth on access point ap4: 5.448465185185185
+
+2025-06-24 19:48:23.174322 -> Current Occupation of Bandwidth on access point ap3: 5.453494814814816
+
+2025-06-24 19:48:23.176318 -> Current Occupation of Bandwidth on access point ap1: 4.41458074074074
+
+2025-06-24 19:48:43.318704 -> Current Occupation of Bandwidth on access point ap2: 4.296628148148148
+
+2025-06-24 19:48:43.459268 -> Current Occupation of Bandwidth on access point ap1: 4.446607407407408
+
+2025-06-24 19:48:43.506323 -> Current Occupation of Bandwidth on access point ap3: 4.281587407407407
+
+2025-06-24 19:48:43.528360 -> Current Occupation of Bandwidth on access point ap4: 4.290592592592593
+
+2025-06-24 19:49:03.168018 -> Current Occupation of Bandwidth on access point ap4: 4.260462962962963
+
+2025-06-24 19:49:03.220025 -> Current Occupation of Bandwidth on access point ap2: 4.245322222222222
+
+2025-06-24 19:49:03.395180 -> Current Occupation of Bandwidth on access point ap1: 4.878208888888889
+
+2025-06-24 19:49:03.537899 -> Current Occupation of Bandwidth on access point ap3: 4.272482222222223
+
+2025-06-24 19:49:23.830590 -> Current Occupation of Bandwidth on access point ap2: 4.910239259259259
+
+2025-06-24 19:49:24.031610 -> Current Occupation of Bandwidth on access point ap1: 4.309701481481482
+
+2025-06-24 19:49:24.033062 -> Current Occupation of Bandwidth on access point ap4: 4.890120740740741
+
+2025-06-24 19:49:24.209702 -> Current Occupation of Bandwidth on access point ap3: 4.903197777777778
+
+2025-06-24 19:49:43.683469 -> Current Occupation of Bandwidth on access point ap1: 5.440417777777777
+
+2025-06-24 19:49:43.794371 -> Current Occupation of Bandwidth on access point ap4: 5.390065925925926
+
+2025-06-24 19:49:43.830356 -> Current Occupation of Bandwidth on access point ap3: 5.355916296296296
+
+2025-06-24 19:49:44.007494 -> Current Occupation of Bandwidth on access point ap2: 5.397111111111111
+
+2025-06-24 19:50:03.991866 -> Current Occupation of Bandwidth on access point ap1: 3.6490155555555557
+
+2025-06-24 19:50:04.127080 -> Current Occupation of Bandwidth on access point ap3: 2.6458999999999997
+
+2025-06-24 19:50:04.131687 -> Current Occupation of Bandwidth on access point ap2: 2.6257814814814813
+
+2025-06-24 19:50:04.378697 -> Current Occupation of Bandwidth on access point ap4: 2.660038518518519
+
+2025-06-24 19:50:23.935143 -> Current Occupation of Bandwidth on access point ap3: 3.0311733333333337
+
+2025-06-24 19:50:24.294214 -> Current Occupation of Bandwidth on access point ap2: 3.0402266666666664
+
+2025-06-24 19:50:24.301854 -> Current Occupation of Bandwidth on access point ap4: 3.0281555555555557
+
+2025-06-24 19:50:24.520148 -> Current Occupation of Bandwidth on access point ap1: 2.7394548148148146
+
+2025-06-24 19:50:44.798241 -> Current Occupation of Bandwidth on access point ap3: 3.186085925925926
+
+2025-06-24 19:50:44.881643 -> Current Occupation of Bandwidth on access point ap4: 3.1820622222222226
+
+2025-06-24 19:50:44.907118 -> Current Occupation of Bandwidth on access point ap2: 3.1850799999999997
+
+2025-06-24 19:50:45.228030 -> Current Occupation of Bandwidth on access point ap1: 2.7837155555555557
+
+2025-06-24 19:51:04.237179 -> Current Occupation of Bandwidth on access point ap2: 3.6638970370370374
+
+2025-06-24 19:51:04.399105 -> Current Occupation of Bandwidth on access point ap2: 4.515199259259259
+
+2025-06-24 19:51:04.399373 -> Current Occupation of Bandwidth on access point ap2: 3.6638970370370374
+
+2025-06-24 19:51:04.430652 -> Current Occupation of Bandwidth on access point ap2: 4.515199259259259
+
+2025-06-24 19:51:04.582197 -> Current Occupation of Bandwidth on access point ap1: 6.30181037037037
+
+2025-06-24 19:51:05.301077 -> Current Occupation of Bandwidth on access point ap1: 6.451693333333333
+
+2025-06-24 19:51:05.589812 -> Current Occupation of Bandwidth on access point ap2: 4.75460962962963
+
+2025-06-24 19:51:05.731377 -> Current Occupation of Bandwidth on access point ap3: 3.717211111111111
+
+2025-06-24 19:51:24.254004 -> Current Occupation of Bandwidth on access point ap2: 6.314405925925925
+
+2025-06-24 19:51:24.583833 -> Current Occupation of Bandwidth on access point ap3: 6.486688148148148
+
+2025-06-24 19:51:24.724963 -> Current Occupation of Bandwidth on access point ap4: 5.359008148148148
+
+2025-06-24 19:51:24.888604 -> Current Occupation of Bandwidth on access point ap1: 8.055308148148148
+
+2025-06-24 19:51:25.614652 -> Current Occupation of Bandwidth on access point ap1: 8.535216296296296
+
+2025-06-24 19:51:25.981382 -> Current Occupation of Bandwidth on access point ap1: 5.542005185185185
+
+2025-06-24 19:51:26.018559 -> Current Occupation of Bandwidth on access point ap1: 6.265115555555554
+
+2025-06-24 19:51:26.018798 -> Current Occupation of Bandwidth on access point ap1: 5.542005185185185
+
+2025-06-24 19:51:26.048870 -> Current Occupation of Bandwidth on access point ap1: 6.265115555555554
+
+2025-06-24 19:51:26.063634 -> Current Occupation of Bandwidth on access point ap1: 5.542005185185185
+
+2025-06-24 19:51:26.070901 -> Current Occupation of Bandwidth on access point ap1: 6.542014074074075
+
+2025-06-24 19:51:26.079085 -> Current Occupation of Bandwidth on access point ap1: 6.265115555555554
+
+2025-06-24 19:51:26.102214 -> Current Occupation of Bandwidth on access point ap1: 5.542005185185185
+
+2025-06-24 19:51:26.107788 -> Current Occupation of Bandwidth on access point ap1: 6.542014074074075
+
+2025-06-24 19:51:26.138734 -> Current Occupation of Bandwidth on access point ap1: 6.265115555555554
+
+2025-06-24 19:51:26.161985 -> Current Occupation of Bandwidth on access point ap1: 6.542014074074075
+
+2025-06-24 19:51:44.194826 -> Current Occupation of Bandwidth on access point ap1: 8.878911111111112
+
+2025-06-24 19:51:44.318439 -> Current Occupation of Bandwidth on access point ap3: 4.174844444444444
+
+2025-06-24 19:51:44.350208 -> Current Occupation of Bandwidth on access point ap2: 4.299642222222222
+
+2025-06-24 19:51:44.560227 -> Current Occupation of Bandwidth on access point ap4: 4.12762074074074
+
+2025-06-24 19:51:45.168385 -> Current Occupation of Bandwidth on access point ap1: 4.173838518518518
+
+2025-06-24 19:51:45.285463 -> Current Occupation of Bandwidth on access point ap1: 4.234257037037037
+
+2025-06-24 19:51:45.297765 -> Current Occupation of Bandwidth on access point ap1: 4.173838518518518
+
+2025-06-24 19:51:45.322812 -> Current Occupation of Bandwidth on access point ap1: 4.234257037037037
+
+2025-06-24 19:52:04.329451 -> Current Occupation of Bandwidth on access point ap2: 4.947514074074074
+
+2025-06-24 19:52:04.408130 -> Current Occupation of Bandwidth on access point ap4: 4.282537777777778
+
+2025-06-24 19:52:04.455287 -> Current Occupation of Bandwidth on access point ap1: 5.276145925925926
+
+2025-06-24 19:52:04.615850 -> Current Occupation of Bandwidth on access point ap3: 4.265377777777777
+
+2025-06-24 19:52:24.226742 -> Current Occupation of Bandwidth on access point ap3: 4.889114814814815
+
+2025-06-24 19:52:24.411835 -> Current Occupation of Bandwidth on access point ap4: 4.910239259259259
+
+2025-06-24 19:52:24.423379 -> Current Occupation of Bandwidth on access point ap1: 4.376092592592593
+
+2025-06-24 19:52:24.552814 -> Current Occupation of Bandwidth on access point ap2: 4.291594814814815
+
+2025-06-24 19:52:44.257783 -> Current Occupation of Bandwidth on access point ap3: 5.365975555555555
+
+2025-06-24 19:52:44.758587 -> Current Occupation of Bandwidth on access point ap2: 5.463498518518518
+
+2025-06-24 19:52:44.797948 -> Current Occupation of Bandwidth on access point ap4: 5.372968888888888
+
+2025-06-24 19:52:45.411328 -> Current Occupation of Bandwidth on access point ap1: 5.496697777777778
+
+2025-06-24 19:53:04.013939 -> Current Occupation of Bandwidth on access point ap3: 2.574479259259259
+
+2025-06-24 19:53:04.447296 -> Current Occupation of Bandwidth on access point ap4: 2.573477037037037
+
+2025-06-24 19:53:04.696110 -> Current Occupation of Bandwidth on access point ap2: 3.56532
+
+2025-06-24 19:53:04.705525 -> Current Occupation of Bandwidth on access point ap1: 53.8457562962963
+
+2025-06-24 19:53:04.705543 -> Congestion detected on access point ap1. Changing streaming rules
+
+2025-06-24 19:53:24.373420 -> Current Occupation of Bandwidth on access point ap3: 2.860038518518518
+
+2025-06-24 19:53:25.021046 -> Current Occupation of Bandwidth on access point ap1: 60.49956370370369
+
+2025-06-24 19:53:25.082226 -> Current Occupation of Bandwidth on access point ap2: 2.6147199999999997
+
+2025-06-24 19:53:25.168796 -> Current Occupation of Bandwidth on access point ap4: 2.879274814814815
+
+2025-06-24 19:53:44.538964 -> Current Occupation of Bandwidth on access point ap3: 2.995965925925926
+
+2025-06-24 19:53:44.780529 -> Current Occupation of Bandwidth on access point ap4: 3.0170266666666667
+
+2025-06-24 19:53:45.211479 -> Current Occupation of Bandwidth on access point ap1: 60.84547333333333
+
+2025-06-24 19:53:45.287870 -> Current Occupation of Bandwidth on access point ap2: 2.6488807407407404
+
+2025-06-24 19:54:04.361352 -> Current Occupation of Bandwidth on access point ap3: 3.578393333333333
+
+2025-06-24 19:54:04.970225 -> Current Occupation of Bandwidth on access point ap4: 3.6296992592592594
+
+2025-06-24 19:54:05.038902 -> Current Occupation of Bandwidth on access point ap1: 62.72879407407408
+
+2025-06-24 19:54:05.500113 -> Current Occupation of Bandwidth on access point ap2: 3.601469629629629
+
+2025-06-24 19:54:24.551017 -> Current Occupation of Bandwidth on access point ap3: 2.754477037037037
+
+2025-06-24 19:54:25.143301 -> Current Occupation of Bandwidth on access point ap4: 2.766548148148148
+
+2025-06-24 19:54:25.258281 -> Current Occupation of Bandwidth on access point ap1: 61.22240444444444
+
+2025-06-24 19:54:25.672491 -> Current Occupation of Bandwidth on access point ap2: 2.920517777777778
+
+2025-06-24 19:54:44.702489 -> Current Occupation of Bandwidth on access point ap3: 3.3440125925925925
+
+2025-06-24 19:54:45.160356 -> Current Occupation of Bandwidth on access point ap4: 3.2875570370370375
+
+2025-06-24 19:54:45.478821 -> Current Occupation of Bandwidth on access point ap1: 62.68204740740742
+
+2025-06-24 19:54:45.723462 -> Current Occupation of Bandwidth on access point ap2: 3.5692140740740737
+
+2025-06-24 19:55:04.907037 -> Current Occupation of Bandwidth on access point ap3: 2.2655340740740737
+
+2025-06-24 19:55:05.259231 -> Current Occupation of Bandwidth on access point ap4: 2.2213992592592593
+
+2025-06-24 19:55:05.477599 -> Current Occupation of Bandwidth on access point ap1: 61.51626222222222
+
+2025-06-24 19:55:05.797670 -> Current Occupation of Bandwidth on access point ap2: 2.181099259259259
+
+2025-06-24 19:55:25.273311 -> Current Occupation of Bandwidth on access point ap3: 2.942648148148148
+
+2025-06-24 19:55:25.450094 -> Current Occupation of Bandwidth on access point ap4: 2.988797037037037
+
+2025-06-24 19:55:25.855551 -> Current Occupation of Bandwidth on access point ap1: 62.392228148148156
+
+2025-06-24 19:55:25.926447 -> Current Occupation of Bandwidth on access point ap2: 2.932588888888889
+
+2025-06-24 19:55:45.580936 -> Current Occupation of Bandwidth on access point ap3: 5.443191111111111
+
+2025-06-24 19:55:45.860379 -> Current Occupation of Bandwidth on access point ap4: 5.422255555555555
+
+2025-06-24 19:55:45.903160 -> Current Occupation of Bandwidth on access point ap1: 63.92806962962963
+
+2025-06-24 19:55:46.277687 -> Current Occupation of Bandwidth on access point ap2: 5.4755696296296295
+
+2025-06-24 19:56:05.858868 -> Current Occupation of Bandwidth on access point ap4: 2.4807911111111114
+
+2025-06-24 19:56:05.887638 -> Current Occupation of Bandwidth on access point ap3: 2.4786644444444446
+
+2025-06-24 19:56:06.116959 -> Current Occupation of Bandwidth on access point ap1: 6.570983703703703
+
+2025-06-24 19:56:06.717122 -> Current Occupation of Bandwidth on access point ap2: 2.4366674074074073
+
+2025-06-24 19:56:26.042642 -> Current Occupation of Bandwidth on access point ap1: 2.4970748148148147
+
+2025-06-24 19:56:26.130997 -> Current Occupation of Bandwidth on access point ap3: 2.5935955555555554
+
+2025-06-24 19:56:26.305850 -> Current Occupation of Bandwidth on access point ap4: 2.5925896296296296
+
+2025-06-24 19:56:26.692959 -> Current Occupation of Bandwidth on access point ap2: 2.6147718518518515
+
+2025-06-24 19:56:46.332149 -> Current Occupation of Bandwidth on access point ap4: 2.4598074074074074
+
+2025-06-24 19:56:46.397866 -> Current Occupation of Bandwidth on access point ap3: 2.455783703703704
+
+2025-06-24 19:56:46.445942 -> Current Occupation of Bandwidth on access point ap1: 2.4568933333333334
+
+2025-06-24 19:56:46.445982 -> Congestion relieved on access point ap1. Re-establishing streaming rules
+
+2025-06-24 19:56:46.876850 -> Current Occupation of Bandwidth on access point ap2: 2.5925896296296296
+
+2025-06-24 19:57:06.423806 -> Current Occupation of Bandwidth on access point ap1: 2.2314622222222225
+
+2025-06-24 19:57:06.469168 -> Current Occupation of Bandwidth on access point ap4: 2.0996859259259257
+
+2025-06-24 19:57:07.035240 -> Current Occupation of Bandwidth on access point ap3: 2.0976703703703703
+
+2025-06-24 19:57:07.087298 -> Current Occupation of Bandwidth on access point ap2: 2.2556044444444447
+
+2025-06-24 19:57:26.337862 -> Current Occupation of Bandwidth on access point ap4: 3.1850799999999997
+
+2025-06-24 19:57:26.457067 -> Current Occupation of Bandwidth on access point ap3: 3.1921214814814816
+
+2025-06-24 19:57:26.784581 -> Current Occupation of Bandwidth on access point ap1: 3.168985185185185
+
+2025-06-24 19:57:27.073615 -> Current Occupation of Bandwidth on access point ap2: 3.1005822222222226
+
+2025-06-24 19:57:46.656995 -> Current Occupation of Bandwidth on access point ap1: 2.848091111111111
+
+2025-06-24 19:57:46.712186 -> Current Occupation of Bandwidth on access point ap3: 2.9165496296296296
+
+2025-06-24 19:57:46.780511 -> Current Occupation of Bandwidth on access point ap4: 2.918468888888889
+
+2025-06-24 19:57:47.364128 -> Current Occupation of Bandwidth on access point ap2: 2.909456296296296
+
+2025-06-24 19:58:06.676135 -> Current Occupation of Bandwidth on access point ap4: 2.6549533333333333
+
+2025-06-24 19:58:06.753204 -> Current Occupation of Bandwidth on access point ap1: 2.6157222222222223
+
+2025-06-24 19:58:06.791827 -> Current Occupation of Bandwidth on access point ap3: 2.658980740740741
+
+2025-06-24 19:58:07.240315 -> Current Occupation of Bandwidth on access point ap2: 2.5895681481481483
+
+2025-06-24 19:58:26.916115 -> Current Occupation of Bandwidth on access point ap3: 3.3138348148148147
+
+2025-06-24 19:58:27.091326 -> Current Occupation of Bandwidth on access point ap4: 3.3148444444444447
+
+2025-06-24 19:58:27.115863 -> Current Occupation of Bandwidth on access point ap1: 3.237388148148148
+
+2025-06-24 19:58:27.655903 -> Current Occupation of Bandwidth on access point ap2: 3.162949629629629
+
+2025-06-24 19:58:46.915784 -> Current Occupation of Bandwidth on access point ap3: 2.342114074074074
+
+2025-06-24 19:58:47.111334 -> Current Occupation of Bandwidth on access point ap1: 2.577497037037037
+
+2025-06-24 19:58:47.394864 -> Current Occupation of Bandwidth on access point ap4: 2.364244444444444
+
+2025-06-24 19:58:47.662224 -> Current Occupation of Bandwidth on access point ap2: 2.6801014814814814
+
+2025-06-24 19:59:07.607774 -> Current Occupation of Bandwidth on access point ap1: 3.2906985185185187
+
+2025-06-24 19:59:07.626270 -> Current Occupation of Bandwidth on access point ap4: 3.7011162962962967
+
+2025-06-24 19:59:07.740305 -> Current Occupation of Bandwidth on access point ap3: 3.679991851851852
+
+2025-06-24 19:59:07.955231 -> Current Occupation of Bandwidth on access point ap2: 3.3218859259259257
+
+2025-06-24 19:59:26.810932 -> Current Occupation of Bandwidth on access point ap1: 3.4094014814814813
+
+2025-06-24 19:59:27.147092 -> Current Occupation of Bandwidth on access point ap3: 3.1367918518518514
+
+2025-06-24 19:59:27.313195 -> Current Occupation of Bandwidth on access point ap4: 3.1015844444444447
+
+2025-06-24 19:59:27.734800 -> Current Occupation of Bandwidth on access point ap2: 3.3741940740740737
+
+2025-06-24 19:59:47.242158 -> Current Occupation of Bandwidth on access point ap1: 2.523177037037037
+
+2025-06-24 19:59:47.328300 -> Current Occupation of Bandwidth on access point ap4: 2.3270251851851853
+
+2025-06-24 19:59:47.444552 -> Current Occupation of Bandwidth on access point ap3: 2.328031111111111
+
+2025-06-24 19:59:47.736917 -> Current Occupation of Bandwidth on access point ap2: 2.529212592592593
+
+2025-06-24 20:00:07.121440 -> Current Occupation of Bandwidth on access point ap1: 2.1338837037037037
+
+2025-06-24 20:00:07.184194 -> Current Occupation of Bandwidth on access point ap3: 2.2606303703703703
+
+2025-06-24 20:00:07.422876 -> Current Occupation of Bandwidth on access point ap4: 2.2556007407407406
+
+2025-06-24 20:00:07.727078 -> Current Occupation of Bandwidth on access point ap2: 1.9960718518518519
+
+2025-06-24 20:00:27.856406 -> Current Occupation of Bandwidth on access point ap1: 0.00031851851851851854
+
+2025-06-24 20:00:28.121620 -> Current Occupation of Bandwidth on access point ap3: 0.00031851851851851854
+
+2025-06-24 20:00:28.215058 -> Current Occupation of Bandwidth on access point ap2: 0.0003148148148148148
+
+2025-06-24 20:00:28.309034 -> Current Occupation of Bandwidth on access point ap4: 0.00031851851851851854
+
+2025-06-24 20:00:47.103208 -> Current Occupation of Bandwidth on access point ap1: 0.0003259259259259259
+
+2025-06-24 20:00:47.183063 -> Current Occupation of Bandwidth on access point ap3: 0.0003259259259259259
+
+2025-06-24 20:00:48.290852 -> Current Occupation of Bandwidth on access point ap2: 0.0003259259259259259
+
+2025-06-24 20:00:48.306625 -> Current Occupation of Bandwidth on access point ap4: 0.0003259259259259259
+
+2025-06-24 20:01:07.310406 -> Current Occupation of Bandwidth on access point ap1: 0.0003222222222222222
+
+2025-06-24 20:01:07.334335 -> Current Occupation of Bandwidth on access point ap3: 0.0003222222222222222
+
+2025-06-24 20:01:08.450864 -> Current Occupation of Bandwidth on access point ap4: 0.0003222222222222222
+
+2025-06-24 20:01:08.526846 -> Current Occupation of Bandwidth on access point ap2: 0.0003222222222222222
+

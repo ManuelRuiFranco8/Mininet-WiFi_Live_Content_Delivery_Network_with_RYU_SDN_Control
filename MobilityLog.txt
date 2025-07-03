@@ -1,0 +1,278 @@
+2025-06-07 16:06:22.095346 -> Initial Positions
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone3:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone2:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone4:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:06:31.045096 -> Receiving position update from drone4: 02:00:00:00:03:00
+   '---> Current position: (26.25, 45.9, 7.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone3:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone2:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone4:(26.25, 45.9, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:06:31.073751 -> Receiving position update from drone2: 02:00:00:00:01:00
+   '---> Current position: (68.90625, 0.0, 7.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone3:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone2:(68.90625, 0.0, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone4:(26.25, 45.9, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:06:31.198603 -> Receiving position update from drone3: 02:00:00:00:02:00
+   '---> Current position: (68.90625, 0.0, 7.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone3:(68.90625, 0.0, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone2:(68.90625, 0.0, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone4:(26.25, 45.9, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:06:31.438114 -> Receiving position update from drone1: 02:00:00:00:00:00
+   '---> Current position: (26.25, 17.0, 7.0)
+
+   '---> drone1:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone3:(68.90625, 0.0, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone2:(68.90625, 0.0, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone4:(26.25, 45.9, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:06:51.001825 -> Receiving position update from drone4: 02:00:00:00:03:00
+   '---> Current position: (26.25, 51.0, 7.0)
+
+   '---> drone1:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 476031.4796233155 [J]
+   '---> drone3:(68.90625, 0.0, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone2:(68.90625, 0.0, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:06:51.199361 -> Receiving position update from drone2: 02:00:00:00:01:00
+   '---> Current position: (78.75, 17.0, 7.0)
+
+   '---> drone1:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 476031.4796233155 [J]
+   '---> drone3:(68.90625, 0.0, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:06:51.259288 -> Receiving position update from drone3: 02:00:00:00:02:00
+   '---> Current position: (78.75, 51.0, 7.0)
+
+   '---> drone1:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 476031.4796233155 [J]
+   '---> drone3:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:10:31.545138 -> Receiving position update from drone5: 02:00:00:00:04:00
+   '---> Current position: (26.25, 17.0, 7.0)
+
+   '---> drone1:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 28393.37697911357 [J]
+   '---> drone3:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 63873.03566105397 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 65922.74994676828 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 67038.03566105396 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+
+2025-06-07 16:10:32.328634 -> [ACK] Received: ACK to drone5 
+2025-06-07 16:10:32.350732 -> [ACK] Received: ACK to drone1 
+   '---> Drone drone5 tasked to move from: (26.25, 17.0, 7.0) to (26.25, 17, 7)
+
+2025-06-07 16:10:32.328778 -> Drone drone1: residual energy 8046.190495286217 [J] is below 23468.520376684497 [J]
+2025-06-07 16:10:32.498208 -> Receiving position update from drone7: 02:00:00:00:06:00
+   '---> Current position: (78.75, 5.1, 7.0)
+
+   '---> drone1:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 43525.84917722661 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 45575.563462940925 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 46690.849177226606 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 5.1, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 496378.66610714287 [J]
+
+2025-06-07 16:10:33.196986 -> Receiving position update from drone1: 02:00:00:00:00:00
+   '---> Current position: (21.0, 0.0, 7.0)
+
+   '---> drone1:(21.0, 0.0, 7.0). Status: Moving. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 43525.84917722661 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 45575.563462940925 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 46690.849177226606 [J]
+   '---> drone8:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 5.1, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 496378.66610714287 [J]
+
+2025-06-07 16:10:42.361422 -> [ACK] Received: ACK to drone6 
+2025-06-07 16:10:42.364102 -> [ACK] Received: ACK to drone2 
+   '---> Drone drone6 tasked to move from: (0.0, 0.0, 0.0) to (78.75, 17, 7)
+
+2025-06-07 16:10:42.361555 -> Drone drone2: residual energy 25228.37697911357 [J] is below 26633.520376684497 [J]
+2025-06-07 16:10:42.372259 -> [ACK] Received: ACK to drone7 
+2025-06-07 16:10:42.378737 -> [ACK] Received: ACK to drone3 
+   '---> Drone drone7 tasked to move from: (78.75, 5.1, 7.0) to (78.75, 51, 7)
+
+2025-06-07 16:10:42.372382 -> Drone drone3: residual energy 23178.66269339926 [J] is below 28683.234662398783 [J]
+2025-06-07 16:10:52.382313 -> [ACK] Received: ACK to drone8 
+2025-06-07 16:10:52.399972 -> [ACK] Received: ACK to drone4 
+   '---> Drone drone8 tasked to move from: (0.0, 0.0, 0.0) to (26.25, 51, 7)
+
+2025-06-07 16:10:52.382429 -> Drone drone4: residual energy 5996.476209571898 [J] is below 25518.234662398783 [J]
+2025-06-07 16:10:52.523511 -> Receiving position update from drone8: 02:00:00:00:07:00
+   '---> Current position: (26.25, 51.0, 7.0)
+
+   '---> drone1:(21.0, 0.0, 7.0). Status: Moving. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 5.1, 7.0). Status: Moving. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 455684.29313948815 [J]
+
+2025-06-07 16:10:52.630255 -> Receiving position update from drone7: 02:00:00:00:06:00
+   '---> Current position: (78.75, 51.0, 7.0)
+
+   '---> drone1:(21.0, 0.0, 7.0). Status: Moving. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 455684.29313948815 [J]
+
+2025-06-07 16:10:52.673669 -> Receiving position update from drone1: 02:00:00:00:00:00
+   '---> Current position: (0.0, 0.0, 0.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone6:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 455684.29313948815 [J]
+
+2025-06-07 16:10:53.397165 -> Receiving position update from drone6: 02:00:00:00:05:00
+   '---> Current position: (78.75, 17.0, 7.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone6:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 455684.29313948815 [J]
+
+2025-06-07 16:10:53.443364 -> Receiving position update from drone3: 02:00:00:00:02:00
+   '---> Current position: (73.828125, 0.0, 7.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(73.828125, 0.0, 7.0). Status: Moving. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone6:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 455684.29313948815 [J]
+
+2025-06-07 16:10:53.465465 -> Receiving position update from drone2: 02:00:00:00:01:00
+   '---> Current position: (14.765625, 0.0, 7.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(73.828125, 0.0, 7.0). Status: Moving. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(14.765625, 0.0, 7.0). Status: Moving. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone6:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 455684.29313948815 [J]
+
+2025-06-07 16:10:53.526114 -> Receiving position update from drone4: 02:00:00:00:03:00
+   '---> Current position: (0.0, 0.0, 0.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(73.828125, 0.0, 7.0). Status: Moving. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(14.765625, 0.0, 7.0). Status: Moving. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone6:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone7:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 499500.0 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 455684.29313948815 [J]
+
+2025-06-07 16:11:11.883530 -> Receiving position update from drone3: 02:00:00:00:02:00
+   '---> Current position: (0.0, 0.0, 0.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(14.765625, 0.0, 7.0). Status: Moving. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 494328.95182142855 [J]
+   '---> drone6:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 493213.66610714287 [J]
+   '---> drone7:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 491163.95182142855 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 435337.1066556608 [J]
+
+2025-06-07 16:11:11.983275 -> Receiving position update from drone2: 02:00:00:00:01:00
+   '---> Current position: (0.0, 0.0, 0.0)
+
+   '---> drone1:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 8046.190495286217 [J]
+   '---> drone3:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 23178.66269339926 [J]
+   '---> drone2:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 25228.37697911357 [J]
+   '---> drone4:(0.0, 0.0, 0.0). Status: Base. Remaining energy: 5996.476209571898 [J]
+   '---> drone8:(26.25, 51.0, 7.0). Status: Deployed. Remaining energy: 494328.95182142855 [J]
+   '---> drone6:(78.75, 17.0, 7.0). Status: Deployed. Remaining energy: 493213.66610714287 [J]
+   '---> drone7:(78.75, 51.0, 7.0). Status: Deployed. Remaining energy: 491163.95182142855 [J]
+   '---> drone5:(26.25, 17.0, 7.0). Status: Deployed. Remaining energy: 435337.1066556608 [J]
+
+2025-06-07 16:14:32.455458 -> [ACK] Received: ACK to drone1 
+2025-06-07 16:14:32.458780 -> [ACK] Received: ACK to drone5 
+   '---> Drone drone1 tasked to move from: (0.0, 0.0, 0.0) to (26.25, 17, 7)
+
+2025-06-07 16:14:32.455525 -> Drone drone5: residual energy 8046.190495286217 [J] is below 23468.520376684497 [J]
+2025-06-07 16:14:52.463015 -> [ACK] Received: ACK to drone2 
+2025-06-07 16:14:52.463872 -> [ACK] Received: ACK to drone6 
+   '---> Drone drone2 tasked to move from: (0.0, 0.0, 0.0) to (78.75, 17, 7)
+
+2025-06-07 16:14:52.463159 -> Drone drone6: residual energy 25228.37697911357 [J] is below 26633.520376684497 [J]
+2025-06-07 16:14:52.464322 -> [ACK] Received: ACK to drone3 
+2025-06-07 16:14:52.464744 -> [ACK] Received: ACK to drone7 
+   '---> Drone drone3 tasked to move from: (0.0, 0.0, 0.0) to (78.75, 51, 7)
+
+2025-06-07 16:14:52.464371 -> Drone drone7: residual energy 23178.66269339926 [J] is below 28683.234662398783 [J]
+2025-06-07 16:15:02.468249 -> [ACK] Received: ACK to drone4 
+2025-06-07 16:15:02.469892 -> [ACK] Received: ACK to drone8 
+   '---> Drone drone4 tasked to move from: (0.0, 0.0, 0.0) to (26.25, 51, 7)
+
+2025-06-07 16:15:02.468478 -> Drone drone8: residual energy 5996.476209571898 [J] is below 25518.234662398783 [J]

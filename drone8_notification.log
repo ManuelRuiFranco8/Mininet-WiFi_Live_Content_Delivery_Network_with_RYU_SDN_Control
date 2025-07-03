@@ -1,0 +1,44 @@
+.....
+Sent 1 packets.
+
+Sent 1 packets.
+
+Sent 1 packets.
+
+Sent 1 packets.
+
+Sent 1 packets.
+Drone drone8:drone8-wlan0 (192.168.1.8). Current position: 26.25,51.0,35.0. Bandwidth occupation: 6.5555555555555556e-06
+
+###[ Ethernet ]###
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = 02:00:00:00:07:00
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = None
+     tos       = 0xc
+     len       = None
+     id        = 1
+     flags     = 
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = None
+     src       = 192.168.1.8
+     dst       = 192.168.1.255
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = domain
+        len       = None
+        chksum    = None
+###[ Raw ]###
+           load      = b'pos:26.25,51.0,35.0/occ:6.5555555555555556e-06'
+
+Packet: None
+
+Payload: b'pos:26.25,51.0,35.0/occ:6.5555555555555556e-06'
+
+
+

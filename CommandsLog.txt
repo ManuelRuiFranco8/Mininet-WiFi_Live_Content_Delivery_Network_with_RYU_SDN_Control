@@ -1,0 +1,114 @@
+2025-06-07 16:06:09.393750 -> [READY] Server listening on localhost:8080...
+
+2025-06-07 16:10:32.327541 -> [CONNECTED] Connection from ('127.0.0.1', 39826)
+   '---> Received command: {"Drone": "drone5", "Action": "Move to Hover", "Start Position": [26.25, 17.0, 7.0], "Final Position": [26.25, 17, 7]}
+   '---> Drone: drone5
+   '---> Action: Move to Hover
+   '---> Start Position: [26.25, 17.0, 7.0]
+   '---> Final Position: [26.25, 17, 7]
+
+2025-06-07 16:10:32.350443 -> [CONNECTED] Connection from ('127.0.0.1', 39836)
+   '---> Received command: {"Drone": "drone1", "Action": "Go Back to Base", "Start Position": [26.25, 17.0, 7.0], "Final Position": [0.0, 0.0, 0.0]}
+   '---> Drone: drone1
+   '---> Action: Go Back to Base
+   '---> Start Position: [26.25, 17.0, 7.0]
+   '---> Final Position: [0.0, 0.0, 0.0]
+
+2025-06-07 16:10:42.360539 -> [CONNECTED] Connection from ('127.0.0.1', 51526)
+   '---> Received command: {"Drone": "drone6", "Action": "Move to Hover", "Start Position": [0.0, 0.0, 0.0], "Final Position": [78.75, 17, 7]}
+   '---> Drone: drone6
+   '---> Action: Move to Hover
+   '---> Start Position: [0.0, 0.0, 0.0]
+   '---> Final Position: [78.75, 17, 7]
+
+2025-06-07 16:10:42.363705 -> [CONNECTED] Connection from ('127.0.0.1', 51530)
+   '---> Received command: {"Drone": "drone2", "Action": "Go Back to Base", "Start Position": [78.75, 17.0, 7.0], "Final Position": [0.0, 0.0, 0.0]}
+   '---> Drone: drone2
+   '---> Action: Go Back to Base
+   '---> Start Position: [78.75, 17.0, 7.0]
+   '---> Final Position: [0.0, 0.0, 0.0]
+
+2025-06-07 16:10:42.371998 -> [CONNECTED] Connection from ('127.0.0.1', 51540)
+   '---> Received command: {"Drone": "drone7", "Action": "Move to Hover", "Start Position": [78.75, 5.1, 7.0], "Final Position": [78.75, 51, 7]}
+   '---> Drone: drone7
+   '---> Action: Move to Hover
+   '---> Start Position: [78.75, 5.1, 7.0]
+   '---> Final Position: [78.75, 51, 7]
+
+2025-06-07 16:10:42.378162 -> [CONNECTED] Connection from ('127.0.0.1', 51548)
+   '---> Received command: {"Drone": "drone3", "Action": "Go Back to Base", "Start Position": [78.75, 51.0, 7.0], "Final Position": [0.0, 0.0, 0.0]}
+   '---> Drone: drone3
+   '---> Action: Go Back to Base
+   '---> Start Position: [78.75, 51.0, 7.0]
+   '---> Final Position: [0.0, 0.0, 0.0]
+
+2025-06-07 16:10:52.381887 -> [CONNECTED] Connection from ('127.0.0.1', 45190)
+   '---> Received command: {"Drone": "drone8", "Action": "Move to Hover", "Start Position": [0.0, 0.0, 0.0], "Final Position": [26.25, 51, 7]}
+   '---> Drone: drone8
+   '---> Action: Move to Hover
+   '---> Start Position: [0.0, 0.0, 0.0]
+   '---> Final Position: [26.25, 51, 7]
+
+2025-06-07 16:10:52.399539 -> [CONNECTED] Connection from ('127.0.0.1', 45202)
+   '---> Received command: {"Drone": "drone4", "Action": "Go Back to Base", "Start Position": [26.25, 51.0, 7.0], "Final Position": [0.0, 0.0, 0.0]}
+   '---> Drone: drone4
+   '---> Action: Go Back to Base
+   '---> Start Position: [26.25, 51.0, 7.0]
+   '---> Final Position: [0.0, 0.0, 0.0]
+
+2025-06-07 16:14:32.455127 -> [CONNECTED] Connection from ('127.0.0.1', 57186)
+   '---> Received command: {"Drone": "drone1", "Action": "Move to Hover", "Start Position": [0.0, 0.0, 0.0], "Final Position": [26.25, 17, 7]}
+   '---> Drone: drone1
+   '---> Action: Move to Hover
+   '---> Start Position: [0.0, 0.0, 0.0]
+   '---> Final Position: [26.25, 17, 7]
+
+2025-06-07 16:14:32.458138 -> [CONNECTED] Connection from ('127.0.0.1', 57198)
+   '---> Received command: {"Drone": "drone5", "Action": "Go Back to Base", "Start Position": [26.25, 17.0, 7.0], "Final Position": [0.0, 0.0, 0.0]}
+   '---> Drone: drone5
+   '---> Action: Go Back to Base
+   '---> Start Position: [26.25, 17.0, 7.0]
+   '---> Final Position: [0.0, 0.0, 0.0]
+
+2025-06-07 16:14:52.462722 -> [CONNECTED] Connection from ('127.0.0.1', 47214)
+   '---> Received command: {"Drone": "drone2", "Action": "Move to Hover", "Start Position": [0.0, 0.0, 0.0], "Final Position": [78.75, 17, 7]}
+   '---> Drone: drone2
+   '---> Action: Move to Hover
+   '---> Start Position: [0.0, 0.0, 0.0]
+   '---> Final Position: [78.75, 17, 7]
+
+2025-06-07 16:14:52.463714 -> [CONNECTED] Connection from ('127.0.0.1', 47226)
+   '---> Received command: {"Drone": "drone6", "Action": "Go Back to Base", "Start Position": [78.75, 17.0, 7.0], "Final Position": [0.0, 0.0, 0.0]}
+   '---> Drone: drone6
+   '---> Action: Go Back to Base
+   '---> Start Position: [78.75, 17.0, 7.0]
+   '---> Final Position: [0.0, 0.0, 0.0]
+
+2025-06-07 16:14:52.464153 -> [CONNECTED] Connection from ('127.0.0.1', 47238)
+   '---> Received command: {"Drone": "drone3", "Action": "Move to Hover", "Start Position": [0.0, 0.0, 0.0], "Final Position": [78.75, 51, 7]}
+   '---> Drone: drone3
+   '---> Action: Move to Hover
+   '---> Start Position: [0.0, 0.0, 0.0]
+   '---> Final Position: [78.75, 51, 7]
+
+2025-06-07 16:14:52.464602 -> [CONNECTED] Connection from ('127.0.0.1', 47252)
+   '---> Received command: {"Drone": "drone7", "Action": "Go Back to Base", "Start Position": [78.75, 51.0, 7.0], "Final Position": [0.0, 0.0, 0.0]}
+   '---> Drone: drone7
+   '---> Action: Go Back to Base
+   '---> Start Position: [78.75, 51.0, 7.0]
+   '---> Final Position: [0.0, 0.0, 0.0]
+
+2025-06-07 16:15:02.467774 -> [CONNECTED] Connection from ('127.0.0.1', 56804)
+   '---> Received command: {"Drone": "drone4", "Action": "Move to Hover", "Start Position": [0.0, 0.0, 0.0], "Final Position": [26.25, 51, 7]}
+   '---> Drone: drone4
+   '---> Action: Move to Hover
+   '---> Start Position: [0.0, 0.0, 0.0]
+   '---> Final Position: [26.25, 51, 7]
+
+2025-06-07 16:15:02.469277 -> [CONNECTED] Connection from ('127.0.0.1', 56812)
+   '---> Received command: {"Drone": "drone8", "Action": "Go Back to Base", "Start Position": [26.25, 51.0, 7.0], "Final Position": [0.0, 0.0, 0.0]}
+   '---> Drone: drone8
+   '---> Action: Go Back to Base
+   '---> Start Position: [26.25, 51.0, 7.0]
+   '---> Final Position: [0.0, 0.0, 0.0]
+

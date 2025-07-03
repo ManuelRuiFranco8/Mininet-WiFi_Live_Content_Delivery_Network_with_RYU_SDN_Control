@@ -1,0 +1,661 @@
+2025-06-24 19:47:12.259891 -> Initialize controller
+2025-06-24 19:47:12.260674 -> Network broadcast address: 192.168.1.255
+2025-06-24 19:47:12.260681 -> Controller initialized
+
+2025-06-24 19:47:26.236982 -> Install table-miss on connected AP ap1 (DPID=000000000000000d, 13)
+2025-06-24 19:47:26.237345 -> Install default rule for notification packest on connected AP ap1 (DPID=000000000000000d, 13)
+
+2025-06-24 19:47:26.239272 -> AP ap1 (DPID=000000000000000d, 13) entered the network
+   '---> Port name: b'ap1', port_no: 4294967294, hw_addr: 1a:bb:12:17:d9:49
+   '---> Port name: b'ap1-wlan1', port_no: 1, hw_addr: 02:00:00:00:09:00
+   '---> Port name: b'ap1-eth4', port_no: 4, hw_addr: ca:70:8c:89:69:28
+   '---> Port name: b'ap1-eth6', port_no: 6, hw_addr: f2:0b:0b:7c:a2:af
+   '---> Port name: b'ap1-eth2', port_no: 2, hw_addr: 9e:89:76:6a:01:b8
+   '---> Port name: b'ap1-eth5', port_no: 5, hw_addr: 62:2b:81:f4:de:15
+   '---> Port name: b'ap1-eth3', port_no: 3, hw_addr: 0a:91:67:7b:fa:f9
+
+2025-06-24 19:47:26.262741 -> Install table-miss on connected AP ap2 (DPID=000000000000000e, 14)
+2025-06-24 19:47:26.263026 -> Install default rule for notification packest on connected AP ap2 (DPID=000000000000000e, 14)
+
+2025-06-24 19:47:26.265441 -> AP ap2 (DPID=000000000000000e, 14) entered the network
+   '---> Port name: b'ap2', port_no: 4294967294, hw_addr: 9a:0b:e0:0f:5a:4e
+   '---> Port name: b'ap2-eth4', port_no: 4, hw_addr: 12:d2:bf:96:82:dc
+   '---> Port name: b'ap2-wlan1', port_no: 1, hw_addr: 02:00:00:00:0a:00
+   '---> Port name: b'ap2-eth2', port_no: 2, hw_addr: 52:e7:65:ff:cc:81
+   '---> Port name: b'ap2-eth5', port_no: 5, hw_addr: aa:f7:9d:b1:9e:4a
+   '---> Port name: b'ap2-eth3', port_no: 3, hw_addr: d6:d9:d4:33:df:07
+
+2025-06-24 19:47:26.293012 -> Install table-miss on connected AP ap3 (DPID=000000000000000f, 15)
+2025-06-24 19:47:26.293275 -> Install default rule for notification packest on connected AP ap3 (DPID=000000000000000f, 15)
+
+2025-06-24 19:47:26.295224 -> AP ap3 (DPID=000000000000000f, 15) entered the network
+   '---> Port name: b'ap3', port_no: 4294967294, hw_addr: d6:a0:2e:79:91:40
+   '---> Port name: b'ap3-eth4', port_no: 4, hw_addr: de:c1:dd:2b:d9:a3
+   '---> Port name: b'ap3-wlan1', port_no: 1, hw_addr: 02:00:00:00:0b:00
+   '---> Port name: b'ap3-eth2', port_no: 2, hw_addr: 16:77:de:87:28:a2
+   '---> Port name: b'ap3-eth5', port_no: 5, hw_addr: 42:f0:1c:36:1f:2b
+   '---> Port name: b'ap3-eth3', port_no: 3, hw_addr: 8a:b9:51:e5:ac:a9
+
+2025-06-24 19:47:26.312551 -> Install table-miss on connected AP ap4 (DPID=0000000000000010, 16)
+2025-06-24 19:47:26.312957 -> Install default rule for notification packest on connected AP ap4 (DPID=0000000000000010, 16)
+
+2025-06-24 19:47:26.313896 -> AP ap4 (DPID=0000000000000010, 16) entered the network
+   '---> Port name: b'ap4', port_no: 4294967294, hw_addr: 5a:b6:90:8c:6b:48
+   '---> Port name: b'ap4-wlan1', port_no: 1, hw_addr: 02:00:00:00:0c:00
+   '---> Port name: b'ap4-eth4', port_no: 4, hw_addr: e2:30:e0:b2:64:e4
+   '---> Port name: b'ap4-eth5', port_no: 5, hw_addr: a6:36:a5:27:7d:11
+   '---> Port name: b'ap4-eth2', port_no: 2, hw_addr: 86:3c:42:ef:6a:76
+   '---> Port name: b'ap4-eth3', port_no: 3, hw_addr: 7e:3a:46:8b:63:7c
+
+2025-06-24 19:47:27.214691 -> Endpoint endpoint1 entered the network
+   '---> Port name: endpoint1-eth1, port_no: 1, hw_addr: 00:00:00:00:00:09
+
+2025-06-24 19:47:28.241698 -> Endpoint endpoint4 entered the network
+   '---> Port name: endpoint4-eth1, port_no: 1, hw_addr: 00:00:00:00:00:0c
+
+2025-06-24 19:47:28.241977 -> Endpoint endpoint2 entered the network
+   '---> Port name: endpoint2-eth1, port_no: 1, hw_addr: 00:00:00:00:00:0a
+
+2025-06-24 19:47:28.495011 -> Endpoint endpoint3 entered the network
+   '---> Port name: endpoint3-eth1, port_no: 1, hw_addr: 00:00:00:00:00:0b
+
+2025-06-24 19:47:40.579618 -> Drone drone3 entered the network
+   '---> Port name: drone3-wlan0, port_no: 0, hw_addr: 02:00:00:00:02:00
+
+2025-06-24 19:47:40.616256 -> Drone drone1 entered the network
+   '---> Port name: drone1-wlan0, port_no: 0, hw_addr: 02:00:00:00:00:00
+
+2025-06-24 19:47:40.648981 -> Drone drone5 entered the network
+   '---> Port name: drone5-wlan0, port_no: 0, hw_addr: 02:00:00:00:04:00
+
+2025-06-24 19:47:40.651089 -> Drone drone4 entered the network
+   '---> Port name: drone4-wlan0, port_no: 0, hw_addr: 02:00:00:00:03:00
+
+2025-06-24 19:47:40.678745 -> Drone drone2 entered the network
+   '---> Port name: drone2-wlan0, port_no: 0, hw_addr: 02:00:00:00:01:00
+
+2025-06-24 19:47:40.687555 -> Drone drone6 entered the network
+   '---> Port name: drone6-wlan0, port_no: 0, hw_addr: 02:00:00:00:05:00
+
+2025-06-24 19:47:40.707341 -> Drone drone7 entered the network
+   '---> Port name: drone7-wlan0, port_no: 0, hw_addr: 02:00:00:00:06:00
+
+2025-06-24 19:47:40.707424 -> Drone drone8 entered the network
+   '---> Port name: drone8-wlan0, port_no: 0, hw_addr: 02:00:00:00:07:00
+
+2025-06-24 19:47:40.707471 -> Network boot-up completed 
+2025-06-24 19:47:40.707474 -> AP ap1, ports: {b'ap1': 4294967294, b'ap1-wlan1': 1, b'ap1-eth4': 4, b'ap1-eth6': 6, b'ap1-eth2': 2, b'ap1-eth5': 5, b'ap1-eth3': 3}
+   '---> DPID: 000000000000000d, Datapath: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+2025-06-24 19:47:40.707488 -> AP ap2, ports: {b'ap2': 4294967294, b'ap2-eth4': 4, b'ap2-wlan1': 1, b'ap2-eth2': 2, b'ap2-eth5': 5, b'ap2-eth3': 3}
+   '---> DPID: 000000000000000e, Datapath: <ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+2025-06-24 19:47:40.707496 -> AP ap3, ports: {b'ap3': 4294967294, b'ap3-eth4': 4, b'ap3-wlan1': 1, b'ap3-eth2': 2, b'ap3-eth5': 5, b'ap3-eth3': 3}
+   '---> DPID: 000000000000000f, Datapath: <ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+2025-06-24 19:47:40.707500 -> AP ap4, ports: {b'ap4': 4294967294, b'ap4-wlan1': 1, b'ap4-eth4': 4, b'ap4-eth5': 5, b'ap4-eth2': 2, b'ap4-eth3': 3}
+   '---> DPID: 0000000000000010, Datapath: <ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+
+2025-06-24 19:47:40.707505 -> Drone drone3, Position: (0.0, 0.0, 0.0)
+   '---> Residual Energy: 277200.0 [J]
+2025-06-24 19:47:40.707515 -> Drone drone1, Position: (0.0, 0.0, 0.0)
+   '---> Residual Energy: 277200.0 [J]
+2025-06-24 19:47:40.707517 -> Drone drone5, Position: (0.0, 0.0, 0.0)
+   '---> Residual Energy: 277200.0 [J]
+2025-06-24 19:47:40.707520 -> Drone drone4, Position: (0.0, 0.0, 0.0)
+   '---> Residual Energy: 277200.0 [J]
+2025-06-24 19:47:40.707525 -> Drone drone2, Position: (0.0, 0.0, 0.0)
+   '---> Residual Energy: 277200.0 [J]
+2025-06-24 19:47:40.707528 -> Drone drone6, Position: (0.0, 0.0, 0.0)
+   '---> Residual Energy: 277200.0 [J]
+2025-06-24 19:47:40.707530 -> Drone drone7, Position: (0.0, 0.0, 0.0)
+   '---> Residual Energy: 277200.0 [J]
+2025-06-24 19:47:40.707532 -> Drone drone8, Position: (0.0, 0.0, 0.0)
+   '---> Residual Energy: 277200.0 [J]
+
+2025-06-24 19:47:40.707535 -> Endpoint endpoint1
+2025-06-24 19:47:40.707537 -> Endpoint endpoint2
+2025-06-24 19:47:40.707539 -> Endpoint endpoint3
+2025-06-24 19:47:40.707540 -> Endpoint endpoint4
+
+2025-06-24 19:47:40.707727 -> Installing streaming rules for ap1, <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Configurations: {'dpid': 13, 'wireless': ['ap1-wlan1'], 'wired': ['ap1-eth4', 'ap1-eth2', 'ap1-eth5', 'ap1-eth3']}
+
+   '---> WiFi Interface: ap1-wlan1 -> in_port_ 1
+   '---> Action: ap1-eth4 -> out_port 4
+   '---> Action: ap1-eth2 -> out_port 2
+   '---> Action: ap1-eth5 -> out_port 5
+   '---> Action: ap1-eth3 -> out_port 3
+   '---> Group rule 1 created on ap1, <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=4,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=2,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Group rule 2 created on ap1, <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=5,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=3,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Meter rule 1 created on ap1, <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Bands: [OFPMeterBandDrop(burst_size=0,len=16,rate=27648,type=1)]
+   '---> Meter rule 2 created on ap1, <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Bands: [OFPMeterBandDrop(burst_size=0,len=16,rate=5184,type=1)]
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1231), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.1', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionSetField(udp_dst=1231), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1231), OFPActionGroup(group_id=2,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=2,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.1', 'ipv4_dst': '192.168.1.255', 'udp_dst': 7777}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionSetField(udp_dst=1231), OFPActionGroup(group_id=2,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1235), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.5', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionSetField(udp_dst=1235), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1235), OFPActionGroup(group_id=2,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=2,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.5', 'ipv4_dst': '192.168.1.255', 'udp_dst': 7777}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionSetField(udp_dst=1235), OFPActionGroup(group_id=2,len=8,type=22)] 
+
+   '---> Ethernet Interface: ap1-eth3 -> in_port_ 3
+   '---> Action: ap1-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 3, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+   '---> Ethernet Interface: ap1-eth4 -> in_port_ 4
+   '---> Action: ap1-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 4, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+   '---> Ethernet Interface: ap1-eth5 -> in_port_ 5
+   '---> Action: ap1-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 5, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+2025-06-24 19:47:40.711189 -> Installing streaming rules for ap2, <ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Configurations: {'dpid': 14, 'wireless': ['ap2-wlan1'], 'wired': ['ap2-eth4', 'ap2-eth2', 'ap2-eth5', 'ap2-eth3']}
+
+   '---> WiFi Interface: ap2-wlan1 -> in_port_ 1
+   '---> Action: ap2-eth4 -> out_port 4
+   '---> Action: ap2-eth2 -> out_port 2
+   '---> Action: ap2-eth5 -> out_port 5
+   '---> Action: ap2-eth3 -> out_port 3
+   '---> Group rule 1 created on ap2, <ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=4,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=3,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Group rule 2 created on ap2, <ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=2,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=5,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Meter rule 1 created on ap2, <ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Bands: [OFPMeterBandDrop(burst_size=0,len=16,rate=27648,type=1)]
+   '---> Meter rule 2 created on ap2, <ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Bands: [OFPMeterBandDrop(burst_size=0,len=16,rate=5184,type=1)]
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1232), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.2', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) installed on ap2,<ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Actions: [OFPActionSetField(udp_dst=1232), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1232), OFPActionGroup(group_id=2,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=2,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.2', 'ipv4_dst': '192.168.1.255', 'udp_dst': 7777}) installed on ap2,<ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Actions: [OFPActionSetField(udp_dst=1232), OFPActionGroup(group_id=2,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1236), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.6', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) installed on ap2,<ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Actions: [OFPActionSetField(udp_dst=1236), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1236), OFPActionGroup(group_id=2,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=2,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.6', 'ipv4_dst': '192.168.1.255', 'udp_dst': 7777}) installed on ap2,<ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Actions: [OFPActionSetField(udp_dst=1236), OFPActionGroup(group_id=2,len=8,type=22)] 
+
+   '---> Ethernet Interface: ap2-eth3 -> in_port_ 3
+   '---> Action: ap2-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 3, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap2,<ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+   '---> Ethernet Interface: ap2-eth4 -> in_port_ 4
+   '---> Action: ap2-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 4, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap2,<ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+   '---> Ethernet Interface: ap2-eth5 -> in_port_ 5
+   '---> Action: ap2-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 5, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap2,<ryu.controller.controller.Datapath object at 0x7fca588e16d0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+2025-06-24 19:47:40.714227 -> Installing streaming rules for ap3, <ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Configurations: {'dpid': 15, 'wireless': ['ap3-wlan1'], 'wired': ['ap3-eth4', 'ap3-eth2', 'ap3-eth5', 'ap3-eth3']}
+
+   '---> WiFi Interface: ap3-wlan1 -> in_port_ 1
+   '---> Action: ap3-eth4 -> out_port 4
+   '---> Action: ap3-eth2 -> out_port 2
+   '---> Action: ap3-eth5 -> out_port 5
+   '---> Action: ap3-eth3 -> out_port 3
+   '---> Group rule 1 created on ap3, <ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=2,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=3,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Group rule 2 created on ap3, <ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=4,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=5,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Meter rule 1 created on ap3, <ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Bands: [OFPMeterBandDrop(burst_size=0,len=16,rate=27648,type=1)]
+   '---> Meter rule 2 created on ap3, <ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Bands: [OFPMeterBandDrop(burst_size=0,len=16,rate=5184,type=1)]
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1233), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.3', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) installed on ap3,<ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Actions: [OFPActionSetField(udp_dst=1233), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1233), OFPActionGroup(group_id=2,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=2,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.3', 'ipv4_dst': '192.168.1.255', 'udp_dst': 7777}) installed on ap3,<ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Actions: [OFPActionSetField(udp_dst=1233), OFPActionGroup(group_id=2,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1237), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.7', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) installed on ap3,<ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Actions: [OFPActionSetField(udp_dst=1237), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1237), OFPActionGroup(group_id=2,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=2,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.7', 'ipv4_dst': '192.168.1.255', 'udp_dst': 7777}) installed on ap3,<ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Actions: [OFPActionSetField(udp_dst=1237), OFPActionGroup(group_id=2,len=8,type=22)] 
+
+   '---> Ethernet Interface: ap3-eth3 -> in_port_ 3
+   '---> Action: ap3-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 3, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap3,<ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+   '---> Ethernet Interface: ap3-eth4 -> in_port_ 4
+   '---> Action: ap3-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 4, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap3,<ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+   '---> Ethernet Interface: ap3-eth5 -> in_port_ 5
+   '---> Action: ap3-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 5, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap3,<ryu.controller.controller.Datapath object at 0x7fca588e15b0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+2025-06-24 19:47:40.717281 -> Installing streaming rules for ap4, <ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Configurations: {'dpid': 16, 'wireless': ['ap4-wlan1'], 'wired': ['ap4-eth4', 'ap4-eth5', 'ap4-eth2', 'ap4-eth3']}
+
+   '---> WiFi Interface: ap4-wlan1 -> in_port_ 1
+   '---> Action: ap4-eth4 -> out_port 4
+   '---> Action: ap4-eth5 -> out_port 5
+   '---> Action: ap4-eth2 -> out_port 2
+   '---> Action: ap4-eth3 -> out_port 3
+   '---> Group rule 1 created on ap4, <ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=5,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=3,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Group rule 2 created on ap4, <ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=4,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=2,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Meter rule 1 created on ap4, <ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Bands: [OFPMeterBandDrop(burst_size=0,len=16,rate=27648,type=1)]
+   '---> Meter rule 2 created on ap4, <ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Bands: [OFPMeterBandDrop(burst_size=0,len=16,rate=5184,type=1)]
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1234), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.4', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) installed on ap4,<ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Actions: [OFPActionSetField(udp_dst=1234), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1234), OFPActionGroup(group_id=2,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=2,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.4', 'ipv4_dst': '192.168.1.255', 'udp_dst': 7777}) installed on ap4,<ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Actions: [OFPActionSetField(udp_dst=1234), OFPActionGroup(group_id=2,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1238), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.8', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) installed on ap4,<ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Actions: [OFPActionSetField(udp_dst=1238), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1238), OFPActionGroup(group_id=2,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=2,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.8', 'ipv4_dst': '192.168.1.255', 'udp_dst': 7777}) installed on ap4,<ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Actions: [OFPActionSetField(udp_dst=1238), OFPActionGroup(group_id=2,len=8,type=22)] 
+
+   '---> Ethernet Interface: ap4-eth3 -> in_port_ 3
+   '---> Action: ap4-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 3, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap4,<ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+   '---> Ethernet Interface: ap4-eth4 -> in_port_ 4
+   '---> Action: ap4-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 4, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap4,<ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+   '---> Ethernet Interface: ap4-eth5 -> in_port_ 5
+   '---> Action: ap4-eth2 -> out_port 2
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 5, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_dst': '192.168.1.255'}) installed on ap4,<ryu.controller.controller.Datapath object at 0x7fca588f05e0>
+   '---> Actions: [OFPActionOutput(len=16,max_len=65509,port=2,type=0)] 
+
+2025-06-24 19:52:46.616108 -> Installing ARP rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing ARP 02:00:00:00:08:00 : 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_src': '02:00:00:00:08:00', 'eth_type': 2054, 'arp_spa': '192.168.1.21', 'arp_tpa': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.619442 -> Installing ARP rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing ARP 22:05:e7:b3:02:cc : 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_src': '22:05:e7:b3:02:cc', 'eth_type': 2054, 'arp_spa': '192.168.1.22', 'arp_tpa': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.625854 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.626561 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.627109 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.627559 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.627971 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.628361 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.631825 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.632454 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.638283 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.650485 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.651035 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.651471 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.651894 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.652284 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.652657 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.653131 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.653507 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.655726 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.656295 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.657700 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.658193 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.658617 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.659584 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.660052 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.660474 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.661623 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.662052 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.662477 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.662912 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.663331 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.664545 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.665160 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.668117 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.671819 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.672821 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.673531 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.674418 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.675735 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.681477 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.21 -> 192.168.1.22
+   '---> Input port number: 1
+   '---> Output port ap1-eth6 (6)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ipv4_src': '192.168.1.21', 'ipv4_dst': '192.168.1.22'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.682400 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.683140 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.684772 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.685304 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.685986 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.686745 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.687474 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.688138 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:52:46.690197 -> Installing IPv4 rules on ap1: <ryu.controller.controller.Datapath object at 0x7fca588e10a0>, (('000000000000000d', 13)
+   '---> Routing IPv4 192.168.1.22 -> 192.168.1.21
+   '---> Input port number: 6
+   '---> Output port ap1-wlan1 (1)
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 6, 'eth_type': 2048, 'ipv4_src': '192.168.1.22', 'ipv4_dst': '192.168.1.21'}) installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+
+2025-06-24 19:53:04.705607 -> Congestion detected on access point ap1, 13 (<ryu.controller.controller.Datapath object at 0x7fca588e10a0>)
+   '---> Deleted Group 1
+   '---> Flow rule 192.168.1.1:8888 removed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Flow rule 192.168.1.5:8888 removed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Action: ap1-eth2 -> out_port 2
+   '---> Action: ap1-eth3 -> out_port 3
+   '---> Action: ap1-eth4 -> out_port 4
+   '---> Action: ap1-eth5 -> out_port 5
+   '---> Group rule 2 modified on ap1, <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=2,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=3,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=4,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=5,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+
+   '---> Action: ap1-eth2 -> out_port 2
+   '---> Action: ap1-eth3 -> out_port 3
+   '---> Action: ap1-eth4 -> out_port 4
+   '---> Action: ap1-eth5 -> out_port 5
+   '---> Group rule 1 re-established on ap1, <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=2,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=4,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+   '---> Group rule 2 modified on ap1, <ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Buckets: [OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=3,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0), OFPBucket(actions=[OFPActionOutput(len=16,max_len=65509,port=5,type=0)],len=32,watch_group=4294967295,watch_port=4294967295,weight=0)]
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1231), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.1', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) re-installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionSetField(udp_dst=1231), OFPActionGroup(group_id=1,len=8,type=22)] 
+   '---> Instructions: [OFPInstructionActions(actions=[OFPActionSetField(udp_dst=1235), OFPActionGroup(group_id=1,len=8,type=22)],type=4), OFPInstructionMeter(len=8,meter_id=1,type=6)] 
+
+   '---> Flow rule OFPMatch(oxm_fields={'in_port': 1, 'eth_type': 2048, 'ip_dscp': 0, 'ip_proto': 17, 'ipv4_src': '192.168.1.5', 'ipv4_dst': '192.168.1.255', 'udp_dst': 8888}) re-installed on ap1,<ryu.controller.controller.Datapath object at 0x7fca588e10a0>
+   '---> Actions: [OFPActionSetField(udp_dst=1235), OFPActionGroup(group_id=1,len=8,type=22)] 
+
+2025-06-24 20:01:12.731796 -> AP ap4 (DPID=0000000000000010, 16) exiting the network
+2025-06-24 20:01:12.754868 -> AP ap1 (DPID=000000000000000d, 13) exiting the network
+2025-06-24 20:01:12.779339 -> AP ap3 (DPID=000000000000000f, 15) exiting the network
+2025-06-24 20:01:12.825653 -> AP ap2 (DPID=000000000000000e, 14) exiting the network
