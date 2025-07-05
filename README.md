@@ -86,17 +86,17 @@ Problems during Mininet-WiFi installation:
 
 &emsp; &emsp; Replace the following content:
 
-&emsp; &emsp; **python -m pip uninstall -y mininet --break-system-packages || true**
+&emsp; &emsp; **python -m pip uninstall -y mininet --break-system-packages || true** <br>
 &emsp; &emsp; **python -m pip install . --break-system-packages**
 
 &emsp; &emsp; With: 
 
-&emsp; &emsp; **python3 -m pip uninstall -y mininet || true**
+&emsp; &emsp; **python3 -m pip uninstall -y mininet || true** <br>
 &emsp; &emsp; **python3 -m pip install .**
 
 &emsp; &emsp; Then executes as follows:
 
-&emsp; &emsp; **cd ~/mininet-wifi/mininet**
+&emsp; &emsp; **cd ~/mininet-wifi/mininet** <br>
 &emsp; &emsp; **sudo python3 -m pip install .**
 
 To test basic broadcast functionality, you need to enable ECHO REPLY to broadcast ping messages on Mininet hosts. To do this:
