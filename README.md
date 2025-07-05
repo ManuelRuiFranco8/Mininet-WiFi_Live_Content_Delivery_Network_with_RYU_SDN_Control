@@ -38,8 +38,10 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 3) Set in the codes all correct paths for .dat, .mp4, and .txt files in your VM environment;
 4) Run *Results.py* from terminal with the command:
 
-**sudo python3 Results.py [--ex1] Optional: collect telemetries for first experiment (transmit from 1 drone, receive on 4 endpoints)** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--ex2] Optional: collect telemetries for second experiment (transmit from 4 drones, receive on 1 endpoint + &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; stress test on first wireless channel**
+**sudo python3 Results.py** <br>
+Options:
+**[--ex1] Optional: collect telemetries for first experiment (transmit from 1 drone, receive on 4 endpoints)** <br>
+**[--ex2] Optional: collect telemetries for second experiment (transmit from 4 drones, receive on 1 endpoint + stress test on first wireless channel**
                                             
 5) Run *DroneController.py* from terminal with the command:
 
@@ -47,17 +49,18 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 
 6) Run *FootballStreaming.py* from terminal with the command:
 
-**sudo python3 FootballStreaming.py [--plot] Optional: use plotGraph function to visualize the network of drones and APs in a 2D space. The &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; plot will show the movement of drones in real time** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--ap_tel/--dr_tel] Optional: use telemetry class to show wireless channel metrics across time measured &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  on either the APs or the drones. Since the plot is unique, you can specify either --plot or &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; --aps_tel/--dr_tel** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--rssi/--tx_bytes/--tx_packets/--tx_errors/--tx_dropped/--tx_fifo_errors/--collisions (drone metrics)/ &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; --rx_bytes/--rx_packets/--rx_errors/--rx_missed_errors/--rx_crc_errors/--rx_dropped/--rx_over_errors/ &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; --rx_fifo_errors (AP metrics)] Optional: if either --ap_tel or --dr_tel has been specified, a metric to be &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; observed has to be specified also. Since the plot is unique, one metric can be shown at a time** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--bgscan] Optional: handle AP <-> drone association through background scanning. When using &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; background scanning, all AP will have the same SSID, allowing drones to roam. Otherwise, &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; each AP has a dedicated SSID** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--manual] Optional: handle AP <-> drone association by explicitly forcing associations with &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; setAssociation function. If --manual is not specified, auto-association of drones to APs is enabled** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--arp] Optional: pre-computes ARP tables statically in all endpoints and drones** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--set_params] Optional: set tx power, antenna gain, and supported data rate in drones and APs** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--endpoint1/--endpoint2/--endpoint3/--endpoint4] Optional: receive video streams only on a specific &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; endpoints. If an endpoint is not specified, video streams will be received on all endpoints &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; at the same time** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--drone1/--drone2/--drone3/--drone4] Optional: stream video only from a specific drone. If a drone is &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; not specified, video streams will be transmitted from all drones at the same time** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--test] Optional: generate congestion on first WiFi Channel to test streaming adaptability**
-
+**sudo python3 FootballStreaming.py** <br>
+Options:
+**[--plot] Optional: use plotGraph function to visualize the network of drones and APs in a 2D space. The plot will show the movement of drones in real time** <br>
+**[--ap_tel/--dr_tel] Optional: use telemetry class to show wireless channel metrics across time measured on either the APs or the drones. Since the plot is unique, you can specify either --plot or --aps_tel/--dr_tel** <br>
+**[--rssi/--tx_bytes/--tx_packets/--tx_errors/--tx_dropped/--tx_fifo_errors/--collisions (drone metrics)/ --rx_bytes/--rx_packets/--rx_errors/--rx_missed_errors/--rx_crc_errors/--rx_dropped/--rx_over_errors/--rx_fifo_errors (AP metrics)] Optional: if either --ap_tel or --dr_tel has been specified, a metric to be observed has to be specified also. Since the plot is unique, one metric can be shown at a time** <br>
+**[--bgscan] Optional: handle AP <-> drone association through background scanning. When using background scanning, all AP will have the same SSID, allowing drones to roam. Otherwise, each AP has a dedicated SSID** <br>
+**[--manual] Optional: handle AP <-> drone association by explicitly forcing associations with setAssociation function. If --manual is not specified, auto-association of drones to APs is enabled** <br>
+**[--arp] Optional: pre-computes ARP tables statically in all endpoints and drones** <br>
+**[--set_params] Optional: set tx power, antenna gain, and supported data rate in drones and APs** <br>
+**[--endpoint1/--endpoint2/--endpoint3/--endpoint4] Optional: receive video streams only on a specific endpoints. If an endpoint is not specified, video streams will be received on all endpoints at the same time** <br>
+**[--drone1/--drone2/--drone3/--drone4] Optional: stream video only from a specific drone. If a drone is not specified, video streams will be transmitted from all drones at the same time** <br>
+**[--test] Optional: generate congestion on first WiFi Channel to test streaming adaptability**
 
 # Debugging and Fixes:
 Problems during Ryu installation:
@@ -75,6 +78,7 @@ Problems during Ryu installation:
 
 &emsp; &emsp; **sudo apt install python3-ryu**
 
+<br>
 Problems during Mininet-WiFi installation:
 1) If the following error is displayed **fatal: detected dubious ownership in repository…**, do as follows:
 
@@ -99,6 +103,7 @@ Problems during Mininet-WiFi installation:
 &emsp; &emsp; **cd ~/mininet-wifi/mininet** <br>
 &emsp; &emsp; **sudo python3 -m pip install .**
 
+<br>
 To test basic broadcast functionality, you need to enable ECHO REPLY to broadcast ping messages on Mininet hosts. To do this:
 1) Open file */etc/sysctl.conf*;
 2) Add line **net.ipv4.icmp_echo_ignore_broadcasts=0**;
