@@ -47,7 +47,7 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 
 6) Run *FootballStreaming.py* from terminal with the command:
 
-**sudo python3 FootballStreaming.py [--plot] Optional: use plotGraph function to visualize the network of drones and APs in a 2D space. The plot will show the movement of drones in real time** <br>
+**sudo python3 FootballStreaming.py [--plot] Optional: use plotGraph function to visualize the network of drones and APs in a 2D space. The &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;plot will show the movement of drones in real time** <br>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--ap_tel/--dr_tel] Optional: use telemetry class to show wireless channel metrics across time measured &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; on either the APs or the drones. Since the plot is unique, you can specify either --plot or --aps_tel/--dr_tel** <br>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--rssi/--tx_bytes/--tx_packets/--tx_errors/--tx_dropped/--tx_fifo_errors/--collisions (drone metrics)** <br>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **--rx_bytes/--rx_packets/--rx_errors/--rx_missed_errors/--rx_crc_errors/--rx_dropped/** <br>
