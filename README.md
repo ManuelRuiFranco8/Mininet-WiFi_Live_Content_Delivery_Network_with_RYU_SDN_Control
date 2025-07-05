@@ -63,17 +63,41 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 Problems during Ryu installation:
 1) Ensure for required dependencies to be installed as follows:
 
-**apt install gcc python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev zlib1g-dev** <br>
-**sudo pip3 install "gevent>=0.13" routes webob paramiko**
+&emsp; &emsp; **apt install gcc python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev zlib1g-dev** <br>
+&emsp; &emsp; **sudo pip3 install "gevent>=0.13" routes webob paramiko**
 
-2) If the following error is displayed: **ImportError: cannot import name 'ALREADY_HANDLED' from 'eventlet.wsgi'**, fix as follows:
+2) If the following error is displayed **ImportError: cannot import name 'ALREADY_HANDLED' from 'eventlet.wsgi'**, fix as follows:
 
-**sudo pip3 uninstall eventlet** <br>
-**sudo pip3 install eventlet==0.30.2**
+&emsp; &emsp; **sudo pip3 uninstall eventlet** <br>
+&emsp; &emsp; **sudo pip3 install eventlet==0.30.2**
 
-3) If installation is successful, but **ryu-manager** is not recognized as command, do as follows:
+3) If installation is successful, but **ryu-manager** is still not recognized as command, do as follows:
 
-**sudo apt install python3-ryu**
+&emsp; &emsp; **sudo apt install python3-ryu**
+
+Problems during Mininet-WiFi installation:
+1) If the following error is displayed **fatal: detected dubious ownership in repository…**, do as follows:
+
+&emsp; &emsp; **git config --global --add safe.directory /home/[user_name]/mininet-wifi/hostap**
+
+2) If the following error is displayed **no such option: --break-system-packages**, do as follows:
+
+&emsp; &emsp; **sudo nano ~/mininet-wifi/mininet/Makefile**
+
+&emsp; &emsp; Replace the following content:
+
+&emsp; &emsp; **python -m pip uninstall -y mininet --break-system-packages || true**
+&emsp; &emsp; **python -m pip install . --break-system-packages**
+
+&emsp; &emsp; With: 
+
+&emsp; &emsp; **python3 -m pip uninstall -y mininet || true**
+&emsp; &emsp; **python3 -m pip install .**
+
+&emsp; &emsp; Then executes as follows:
+
+&emsp; &emsp; **cd ~/mininet-wifi/mininet**
+&emsp; &emsp; **sudo python3 -m pip install .**
 
 To test basic broadcast functionality, you need to enable ECHO REPLY to broadcast ping messages on Mininet hosts. To do this:
 1) Open file */etc/sysctl.conf*;
@@ -81,7 +105,7 @@ To test basic broadcast functionality, you need to enable ECHO REPLY to broadcas
 3) Execute **sudo sysctl -p** from command line to apply configuration changes. This line is to be executed on each Mininet host (drone/endpoint) after its deployment;
 
 # Credits
-This project has been realized as assignment for the course of Smart and Programmable Networks - Module 2, A.A. 2023-2024
+This project has been realized as assignment for the course of Smart and Programmable Networks - Module 2, A.A. 2024-2025
 
 
 Co-authored by Alessandro D'Amico <alessandro99damico@gmail.com>
