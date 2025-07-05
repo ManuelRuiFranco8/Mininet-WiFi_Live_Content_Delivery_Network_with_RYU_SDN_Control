@@ -38,7 +38,8 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 3) Set in the codes all correct paths for .dat, .mp4, and .txt files in your VM environment;
 4) Run *Results.py* from terminal with the command:
 
-**sudo python3 Results.py [--ex1] Optional: collect telemetries for first experiment (transmit from 1 drone, receive on 4 endpoints)** <br>
+**sudo python3 Results.py [--ex1] Optional: collect telemetries for first experiment (transmit from 1 drone, receive** <br> 
+&emsp; &emsp; &emsp; **on 4 endpoints)** <br>
 **[--ex2] Optional: collect telemetries for second experiment (transmit from 4 drones, receive on 1 endpoint + stress test on first wireless channel**
                                             
 5) Run *DroneController.py* from terminal with the command **ryu-manager DroneController.py**
