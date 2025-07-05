@@ -39,8 +39,8 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 4) Run *Results.py* from terminal with the command:
 
 **sudo python3 Results.py [--ex1] Optional: collect telemetries for first experiment (transmit from 1 drone, receive** <br> 
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **on 4 endpoints)** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; **[--ex2] Optional: collect telemetries for second experiment (transmit from 4 drones, receive on 1 endpoint + stress test on first wireless channel**
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **on 4 endpoints)** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--ex2] Optional: collect telemetries for second experiment (transmit from 4 drones, receive on 1 endpoint + stress test on first wireless channel**
                                             
 5) Run *DroneController.py* from terminal with the command:
 
