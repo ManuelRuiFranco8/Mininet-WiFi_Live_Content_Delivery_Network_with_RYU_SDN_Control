@@ -1,6 +1,6 @@
 # VM Environment Set-Up:
 - Ubuntu 20.04
-- Python 3.8.10 / 
+- Python 3.8.10
 - Ryu 4.34
 - Mininet-WiFi 2.6
 - Open vSwitch 3.5.0
@@ -16,10 +16,10 @@ Network consists of 8 drones (Mininet-emulated Hosts) flying and hovering over a
 Drone devices are connected to APs (Open vSwitch kernel datapaths) via emulated Wifi 802.11a channels (Wmediumd). An Ethernet backbone (Linux Traffic Control) connects APs among themselves and with client endpoints. Network IPv4 addressing is static, in the range 192.168.1.0/24.
 Drones mobility is emulated by Mininet-WiFi in replay mode from a series of .dat files (which are written upon running the code).
 Each drone transmits two streams at the same time (simulating quality-scalable streaming), which are received on all endpoints (simulating a multi-camera video streaming).
-This code opens VLC processes to transmit and receive .mp4 files as live video streams on Mininet-emulated Hosts. It also run threads allowing each drone to notify its current position and current WiFi channel occupation to the controller.
+This code opens VLC processes to transmit and receive .mp4 files as live video streams (RTSP protocol) on Mininet-emulated Hosts. It also run threads allowing each drone to notify its current position and current WiFi channel occupation to the controller.
 It opens a TCP socket on localhost:8080 to receive drone mobility commands from the controller. File *CommandsLog.txt* records all commands received from the controller.
 
-*SendPosition.py* is executed on Mininet-emulated drone devices to transmit an in-band notification to controller using Scapy library. Notification contenins drones current coordinates and current sensed occupation of the WiFi channel. File *drone8_notification.txt* cointains a sample notification packet.
+*SendPosition.py* is executed on Mininet-emulated drone devices to transmit in-band notifications to controller using Scapy library. Notification conteins drones current coordinates and current sensed occupation of the WiFi channel. File *drone8_notification.txt* cointains a sample notification packet.
 
 *DroneController.py* runs a Ryu application on localhost:6653. Ryu controller proactively installs flow rules, group rules, and meter rules on OVS access points to enable video streaming on the emulated network.
 A double optimization of the video streaming is implemented:
@@ -27,7 +27,7 @@ A double optimization of the video streaming is implemented:
 2. Static service differentiation between endpoints (i.e., certain endpoints will receive low-quality streams, while other will receive high-quality streams);
 A thread also keeps track in real time of drones energy consumption according to received notifications and theoretical models, sending mobility commands to drones on a TCP socket opened on localhost:8080.
 Controller also proactively installs flow rules and group rules for IPv4 broadcasting and installs reactively flow rules for ARP traffic and IPv4 unicast traffic.
-File *ControllerLog.txt* records all rules installed by the controller on APs. File *MobilityLog.txt* records all received position notifications and all transmitted mobility commands. File *BandwidthLog.txt* records all received channel occupation feedbacks.
+File *ControllerLog.txt* records all rules installed by the controller on APs. File *MobilityLog.txt* records all position notifications received from drones and all transmitted mobility commands sent to drones. File *BandwidthLog.txt* records all channel occupation feedbacks received from drones.
 
 *Results.py* collects real-time statistics (transmitted/received bitrate) from virtual L2 interfaces of APs into numpy series, plotting them with Matplotlib and saving them to .png.
 
@@ -37,9 +37,13 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 2) Download all the codes in you VM environment;
 3) Set in the codes all correct paths for .dat, .mp4, and .txt files in your VM environment;
 4) Run *Results.py* from terminal with the command
-**sudo python3 Results.py [--ex1] Optional: collect telemetries for first experiment (transmit from 1 drone, receive on 4 endpoints)
-                          [--ex2] Optional: collect telemetries for second experiment (transmit from 4 drones, receive on 1 endpoint + stress test on
-                                            first wireless channel**
+
+**sudo python3 Results.py** 
+
+**[--ex1] Optional: collect telemetries for first experiment (transmit from 1 drone, receive on 4 endpoints)**
+
+**[--ex2] Optional: collect telemetries for second experiment (transmit from 4 drones, receive on 1 endpoint + stress test on first wireless channel**
+                                            
 5) Run *DroneController.py* from terminal with the command **ryu-manager DroneController.py**
 6) Run *FootballStreaming.py* from terminal with the command 
 **sudo python3 FootballStreaming.py [--plot] Optional: use plotGraph function to visualize the network of drones and APs in a 2D space. The plot will show
