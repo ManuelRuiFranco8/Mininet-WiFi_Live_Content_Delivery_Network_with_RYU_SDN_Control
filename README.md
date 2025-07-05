@@ -59,7 +59,22 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--test] Optional: generate congestion on first WiFi Channel to test streaming adaptability**
 
 
-# Debugging:
+# Debugging and Fixes:
+Problems during Ryu installation:
+1) Ensure for required dependencies to be installed as follows:
+
+**apt install gcc python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev zlib1g-dev** <br>
+**sudo pip3 install "gevent>=0.13" routes webob paramiko**
+
+2) If the following error is displayed: **ImportError: cannot import name 'ALREADY_HANDLED' from 'eventlet.wsgi'**, fix as follows:
+
+**sudo pip3 uninstall eventlet** <br>
+**sudo pip3 install eventlet==0.30.2**
+
+3) If installation is successful, but **ryu-manager** is not recognized as command, do as follows:
+
+**sudo apt install python3-ryu**
+
 To test basic broadcast functionality, you need to enable ECHO REPLY to broadcast ping messages on Mininet hosts. To do this:
 1) Open file */etc/sysctl.conf*;
 2) Add line **net.ipv4.icmp_echo_ignore_broadcasts=0**;
