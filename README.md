@@ -49,23 +49,17 @@ File *ControllerLog.txt* records all rules installed by the controller on APs. F
 
 **sudo python3 FootballStreaming.py [--plot] Optional: use plotGraph function to visualize the network of drones and** <br>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **APs in a 2D space. The plot will show the movement of drones in real time** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--ap_tel/--dr_tel] Optional: use telemetry class to show wireless channel metrics across time measured on either the APs or** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **the drones. Since the plot is unique, you can specify either --plot or --aps_tel/--dr_tel** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--rssi/--tx_bytes/--tx_packets/--tx_errors/--tx_dropped/--tx_fifo_errors/--collisions (drone metrics)** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **--rx_bytes/--rx_packets/--rx_errors/--rx_missed_errors/--rx_crc_errors/--rx_dropped/** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **--rx_over errors/--rx_fifo_errors (AP metrics)] Optional: if either --ap_tel or --dr_tel has been specified, a metric to** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **observed has to be specified also. Since the plot is unique, a single metric can be shown at a time** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--bgscan] Optional: handle AP <-> drone association through background scanning. When using background scanning, all AP** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **will have the same SSID, allowing drones to roam. Otherwise, each AP has a dedicated SSID** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--manual] Optional: handle AP <-> drone association by explicitly forcing associations with setAssociation function. If** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **--manual is not specified, auto-association of drones to APs is enabled** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--arp] Optional: pre-computes ARP tables statically in all endpoints and drones** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--set_params] Optional: set tx power, antenna gain, and supported data rate in drones and APs** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--endpoint1/--endpoint2/--endpoint3/--endpoint4] Optional: receive video streams only on a specific endpoints. If an** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **endpoint is not specified, video streams will be received on all endpoints at the same time** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--drone1/--drone2/--drone3/--drone4] Optional: stream video only from a specific drone. If a drone is not specified, video** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **streams will be transmitted from all drones at the same time** <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--test] Optional: generate congestion on first WiFi Channel to test streaming adaptability**
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--ap_tel/--dr_tel] Optional: use telemetry class to show wireless channel metrics across time measured on either the APs or the drones. Since the plot is unique, you can specify either --plot or --aps_tel/--dr_tel** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--rssi/--tx_bytes/--tx_packets/--tx_errors/--tx_dropped/--tx_fifo_errors/--collisions (drone metrics)** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **--rx_bytes/--rx_packets/--rx_errors/--rx_missed_errors/--rx_crc_errors/--rx_dropped/** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **--rx_over errors/--rx_fifo_errors (AP metrics)] Optional: if either --ap_tel or --dr_tel has been specified, a metric to observed has to be specified also. Since the plot is unique, a single metric can be shown at a time** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--bgscan] Optional: handle AP <-> drone association through background scanning. When using background scanning, all AP will have the same SSID, allowing drones to roam. Otherwise, each AP has a dedicated SSID** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--manual] Optional: handle AP <-> drone association by explicitly forcing associations with setAssociation function. If --manual is not specified, auto-association of drones to APs is enabled** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--arp] Optional: pre-computes ARP tables statically in all endpoints and drones** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--set_params] Optional: set tx power, antenna gain, and supported data rate in drones and APs** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--endpoint1/--endpoint2/--endpoint3/--endpoint4] Optional: receive video streams only on a specific endpoints. If an endpoint is not specified, video streams will be received on all endpoints at the same time** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--drone1/--drone2/--drone3/--drone4] Optional: stream video only from a specific drone. If a drone is not specified, video streams will be transmitted from all drones at the same time** <br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; **[--test] Optional: generate congestion on first WiFi Channel to test streaming adaptability**
 
 
 # Debugging:
